@@ -1,4 +1,4 @@
-import { TokenizedBallot, TokenizedBallot__factory } from "../typechain-types";
+import { TokenizedBallot, TokenizedBallot__factory } from "../../typechain-types";
 import { ethers } from "hardhat";
 
 async function main() {
