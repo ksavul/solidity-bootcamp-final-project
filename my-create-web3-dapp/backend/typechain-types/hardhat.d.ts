@@ -102,6 +102,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.LotteryToken__factory>;
     getContractFactory(
+      name: "NftMarketplace",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.NftMarketplace__factory>;
+    getContractFactory(
+      name: "PokeMarketplace",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.PokeMarketplace__factory>;
+    getContractFactory(
       name: "PokeNFT",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.PokeNFT__factory>;
@@ -225,6 +233,16 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.LotteryToken>;
     getContractAt(
+      name: "NftMarketplace",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.NftMarketplace>;
+    getContractAt(
+      name: "PokeMarketplace",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.PokeMarketplace>;
+    getContractAt(
       name: "PokeNFT",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -329,6 +347,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.LotteryToken>;
     deployContract(
+      name: "NftMarketplace",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.NftMarketplace>;
+    deployContract(
+      name: "PokeMarketplace",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.PokeMarketplace>;
+    deployContract(
       name: "PokeNFT",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.PokeNFT>;
@@ -451,6 +477,16 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.LotteryToken>;
+    deployContract(
+      name: "NftMarketplace",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.NftMarketplace>;
+    deployContract(
+      name: "PokeMarketplace",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.PokeMarketplace>;
     deployContract(
       name: "PokeNFT",
       args: any[],

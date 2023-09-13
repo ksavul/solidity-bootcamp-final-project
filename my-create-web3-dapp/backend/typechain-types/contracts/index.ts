@@ -5,6 +5,8 @@ import type * as interfaces from "./interfaces";
 export type { interfaces };
 export type { Lottery } from "./Lottery";
 export type { LotteryToken } from "./LotteryToken";
+export type { NftMarketplace } from "./NftMarketplace";
+export type { PokeMarketplace } from "./PokeMarketplace";
 export type { PokeNFT } from "./PokeNFT";
 export type { PokeToken } from "./PokeToken";
 export type { Shop } from "./Shop";

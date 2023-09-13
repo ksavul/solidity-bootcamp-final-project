@@ -3,7 +3,6 @@
 /* eslint-disable */
 import type {
   BaseContract,
-  BigNumberish,
   BytesLike,
   FunctionFragment,
   Result,
@@ -32,7 +31,7 @@ export interface ShopInterface extends Interface {
 
   encodeFunctionData(
     functionFragment: "buyNFTWithToken",
-    values: [BigNumberish]
+    values?: undefined
   ): string;
   encodeFunctionData(
     functionFragment: "buyTokenDigitalWithEther",
@@ -104,11 +103,7 @@ export interface Shop extends BaseContract {
     event?: TCEvent
   ): Promise<this>;
 
-  buyNFTWithToken: TypedContractMethod<
-    [tokenId: BigNumberish],
-    [void],
-    "nonpayable"
-  >;
+  buyNFTWithToken: TypedContractMethod<[], [void], "nonpayable">;
 
   buyTokenDigitalWithEther: TypedContractMethod<[], [void], "payable">;
 
@@ -124,7 +119,7 @@ export interface Shop extends BaseContract {
 
   getFunction(
     nameOrSignature: "buyNFTWithToken"
-  ): TypedContractMethod<[tokenId: BigNumberish], [void], "nonpayable">;
+  ): TypedContractMethod<[], [void], "nonpayable">;
   getFunction(
     nameOrSignature: "buyTokenDigitalWithEther"
   ): TypedContractMethod<[], [void], "payable">;

@@ -11,7 +11,7 @@ contract PokeToken is ERC20, ERC20Burnable, Ownable, AccessControl {
     address private shopContract;
 
     constructor() ERC20("PokeToken", "PTK") {
-        _mint(msg.sender, 1000000 * 10 ** decimals());
+        //_mint(msg.sender, 1000000 * 10 ** decimals());
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _grantRole(MINTER_ROLE, msg.sender);
     }
