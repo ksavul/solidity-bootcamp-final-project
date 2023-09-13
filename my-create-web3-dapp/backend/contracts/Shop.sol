@@ -9,6 +9,7 @@ contract Shop {
     IPokeNFT public pokeNft;
     uint256 private ratio;
     uint256 private nftPrize;
+    uint256 private index;
 
     constructor(
         address _pokeToken,
@@ -29,13 +30,14 @@ contract Shop {
         pokeToken.mint(msg.sender, tokenAmount);
     }
 
-    function buyNFTWithToken(uint256 tokenId) public {
+    function buyNFTWithToken() public {
         require(
             pokeToken.transfer(address(this), nftPrize),
             "Not enough tokens"
         );
 
-        pokeNft.safeMint(msg.sender, tokenId);
+        pokeNft.safeMint(msg.sender, index);
+        index++;
     }
 
     function getNftPrize() public view returns (uint256) {
