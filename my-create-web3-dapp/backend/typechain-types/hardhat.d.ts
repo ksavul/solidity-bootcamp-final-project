@@ -86,9 +86,13 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.IERC165__factory>;
     getContractFactory(
-      name: "PokeToken",
+      name: "IPokeNFT",
       signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.PokeToken__factory>;
+    ): Promise<Contracts.IPokeNFT__factory>;
+    getContractFactory(
+      name: "IPokeToken",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IPokeToken__factory>;
     getContractFactory(
       name: "Lottery",
       signerOrOptions?: ethers.Signer | FactoryOptions
@@ -98,9 +102,17 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.LotteryToken__factory>;
     getContractFactory(
-      name: "PokNFT",
+      name: "PokeNFT",
       signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.PokNFT__factory>;
+    ): Promise<Contracts.PokeNFT__factory>;
+    getContractFactory(
+      name: "PokeToken",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.PokeToken__factory>;
+    getContractFactory(
+      name: "Shop",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Shop__factory>;
 
     getContractAt(
       name: "AccessControl",
@@ -193,10 +205,15 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.IERC165>;
     getContractAt(
-      name: "PokeToken",
+      name: "IPokeNFT",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
-    ): Promise<Contracts.PokeToken>;
+    ): Promise<Contracts.IPokeNFT>;
+    getContractAt(
+      name: "IPokeToken",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IPokeToken>;
     getContractAt(
       name: "Lottery",
       address: string | ethers.Addressable,
@@ -208,10 +225,20 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.LotteryToken>;
     getContractAt(
-      name: "PokNFT",
+      name: "PokeNFT",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
-    ): Promise<Contracts.PokNFT>;
+    ): Promise<Contracts.PokeNFT>;
+    getContractAt(
+      name: "PokeToken",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.PokeToken>;
+    getContractAt(
+      name: "Shop",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Shop>;
 
     deployContract(
       name: "AccessControl",
@@ -286,9 +313,13 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.IERC165>;
     deployContract(
-      name: "PokeToken",
+      name: "IPokeNFT",
       signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.PokeToken>;
+    ): Promise<Contracts.IPokeNFT>;
+    deployContract(
+      name: "IPokeToken",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.IPokeToken>;
     deployContract(
       name: "Lottery",
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -298,9 +329,17 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.LotteryToken>;
     deployContract(
-      name: "PokNFT",
+      name: "PokeNFT",
       signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.PokNFT>;
+    ): Promise<Contracts.PokeNFT>;
+    deployContract(
+      name: "PokeToken",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.PokeToken>;
+    deployContract(
+      name: "Shop",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Shop>;
 
     deployContract(
       name: "AccessControl",
@@ -393,10 +432,15 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.IERC165>;
     deployContract(
-      name: "PokeToken",
+      name: "IPokeNFT",
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.PokeToken>;
+    ): Promise<Contracts.IPokeNFT>;
+    deployContract(
+      name: "IPokeToken",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.IPokeToken>;
     deployContract(
       name: "Lottery",
       args: any[],
@@ -408,10 +452,20 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.LotteryToken>;
     deployContract(
-      name: "PokNFT",
+      name: "PokeNFT",
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.PokNFT>;
+    ): Promise<Contracts.PokeNFT>;
+    deployContract(
+      name: "PokeToken",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.PokeToken>;
+    deployContract(
+      name: "Shop",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Shop>;
 
     // default types
     getContractFactory(

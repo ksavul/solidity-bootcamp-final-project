@@ -8,20 +8,37 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
+import "@openzeppelin/contracts/access/AccessControl.sol";
 
-contract PokNFT is
+contract PokeNFT is
     ERC721,
     ERC721Enumerable,
     ERC721URIStorage,
     ERC721Burnable,
-    Ownable
+    Ownable,
+    AccessControl
 {
+    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
+    address private shopContract;
+
     using Counters for Counters.Counter;
     using Strings for uint256;
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("PokNFT", "PNFT") {}
+    constructor() ERC721("PokNFT", "PNFT") {
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        _grantRole(MINTER_ROLE, msg.sender);
+    }
+
+    function addShop(address _shopContract) public onlyOwner {
+        _grantRole(MINTER_ROLE, _shopContract);
+        shopContract = _shopContract;
+    }
+
+    function currentShop() public view returns (address) {
+        return shopContract;
+    }
 
     function _baseURI() internal pure override returns (string memory) {
         return "https://images.pokemontcg.io/swsh12pt5/";
@@ -45,7 +62,10 @@ contract PokNFT is
         return string.concat(uri, ".png");
     }
 
-    function safeMint(address to, uint256 tokenId) public onlyOwner {
+    function safeMint(
+        address to,
+        uint256 tokenId
+    ) public onlyRole(MINTER_ROLE) {
         _safeMint(to, tokenId);
     }
 
@@ -71,7 +91,7 @@ contract PokNFT is
     )
         public
         view
-        override(ERC721, ERC721Enumerable, ERC721URIStorage)
+        override(ERC721, ERC721Enumerable, ERC721URIStorage, AccessControl)
         returns (bool)
     {
         return super.supportsInterface(interfaceId);
