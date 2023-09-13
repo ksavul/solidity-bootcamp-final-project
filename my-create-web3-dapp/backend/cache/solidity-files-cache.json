@@ -1036,8 +1036,8 @@
       ]
     },
     "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/PokeToken.sol": {
-      "lastModificationDate": 1694606633670,
-      "contentHash": "e7f24a5e16206f15c39c9a615baf68c5",
+      "lastModificationDate": 1694621746202,
+      "contentHash": "89b2df3077aa9b8790223a61dd5911f7",
       "sourceName": "contracts/PokeToken.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -1120,8 +1120,8 @@
       ]
     },
     "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/Shop.sol": {
-      "lastModificationDate": 1694612259898,
-      "contentHash": "82b8088119d34ecf61687c224c567ce0",
+      "lastModificationDate": 1694621533102,
+      "contentHash": "7610920e975ff1ad87412a7bf6fa2c0e",
       "sourceName": "contracts/Shop.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -1158,8 +1158,8 @@
       ]
     },
     "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/interfaces/IPokeNFT.sol": {
-      "lastModificationDate": 1694616420887,
-      "contentHash": "15f692515b5bddfccf9e34257fa774fc",
+      "lastModificationDate": 1694626496971,
+      "contentHash": "df020b3234ac1355fb52fe42203265c4",
       "sourceName": "contracts/interfaces/IPokeNFT.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -1193,8 +1193,8 @@
       ]
     },
     "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/interfaces/IPokeToken.sol": {
-      "lastModificationDate": 1694605491950,
-      "contentHash": "7d73f38238a49d7ed8deecdcd9389655",
+      "lastModificationDate": 1694621159502,
+      "contentHash": "26ced970308099b7ab9207648740b805",
       "sourceName": "contracts/interfaces/IPokeToken.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -1228,8 +1228,8 @@
       ]
     },
     "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/PokeMarketplace.sol": {
-      "lastModificationDate": 1694616442967,
-      "contentHash": "0fc9d54f4a7327b59f8fe8702351a2da",
+      "lastModificationDate": 1694630100710,
+      "contentHash": "e85b7879151990499ba42d2974e654de",
       "sourceName": "contracts/PokeMarketplace.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -1263,7 +1263,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "NFTMarketplace"
+        "PokeMarketplace"
       ]
     },
     "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol": {

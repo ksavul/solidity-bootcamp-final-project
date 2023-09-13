@@ -22,7 +22,9 @@ import type {
 } from "../../common";
 
 export interface IPokeTokenInterface extends Interface {
-  getFunction(nameOrSignature: "mint" | "transfer"): FunctionFragment;
+  getFunction(
+    nameOrSignature: "mint" | "transfer" | "transferFrom"
+  ): FunctionFragment;
 
   encodeFunctionData(
     functionFragment: "mint",
@@ -32,9 +34,17 @@ export interface IPokeTokenInterface extends Interface {
     functionFragment: "transfer",
     values: [AddressLike, BigNumberish]
   ): string;
+  encodeFunctionData(
+    functionFragment: "transferFrom",
+    values: [AddressLike, AddressLike, BigNumberish]
+  ): string;
 
   decodeFunctionResult(functionFragment: "mint", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "transfer", data: BytesLike): Result;
+  decodeFunctionResult(
+    functionFragment: "transferFrom",
+    data: BytesLike
+  ): Result;
 }
 
 export interface IPokeToken extends BaseContract {
@@ -92,6 +102,12 @@ export interface IPokeToken extends BaseContract {
     "nonpayable"
   >;
 
+  transferFrom: TypedContractMethod<
+    [from: AddressLike, to: AddressLike, amount: BigNumberish],
+    [boolean],
+    "nonpayable"
+  >;
+
   getFunction<T extends ContractMethod = ContractMethod>(
     key: string | FunctionFragment
   ): T;
@@ -107,6 +123,13 @@ export interface IPokeToken extends BaseContract {
     nameOrSignature: "transfer"
   ): TypedContractMethod<
     [to: AddressLike, amount: BigNumberish],
+    [boolean],
+    "nonpayable"
+  >;
+  getFunction(
+    nameOrSignature: "transferFrom"
+  ): TypedContractMethod<
+    [from: AddressLike, to: AddressLike, amount: BigNumberish],
     [boolean],
     "nonpayable"
   >;

@@ -9,4 +9,8 @@ interface IPokeNFT {
     function approve(address to, uint256 tokenId) external;
 
     function transferFrom(address from, address to, uint256 tokenId) external;
+
+    function getApproved(
+        uint256 tokenId
+    ) external view returns (address operator);
 }

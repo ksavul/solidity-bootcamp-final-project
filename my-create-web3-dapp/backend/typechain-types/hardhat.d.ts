@@ -106,10 +106,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.NftMarketplace__factory>;
     getContractFactory(
-      name: "NFTMarketplace",
-      signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.NFTMarketplace__factory>;
-    getContractFactory(
       name: "PokeMarketplace",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.PokeMarketplace__factory>;
@@ -242,11 +238,6 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.NftMarketplace>;
     getContractAt(
-      name: "NFTMarketplace",
-      address: string | ethers.Addressable,
-      signer?: ethers.Signer
-    ): Promise<Contracts.NFTMarketplace>;
-    getContractAt(
       name: "PokeMarketplace",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -359,10 +350,6 @@ declare module "hardhat/types/runtime" {
       name: "NftMarketplace",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.NftMarketplace>;
-    deployContract(
-      name: "NFTMarketplace",
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.NFTMarketplace>;
     deployContract(
       name: "PokeMarketplace",
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -495,11 +482,6 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.NftMarketplace>;
-    deployContract(
-      name: "NFTMarketplace",
-      args: any[],
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.NFTMarketplace>;
     deployContract(
       name: "PokeMarketplace",
       args: any[],

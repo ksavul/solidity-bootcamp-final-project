@@ -21,22 +21,22 @@ import type {
   TypedLogDescription,
   TypedListener,
   TypedContractMethod,
-} from "../common";
+} from "../../common";
 
 export declare namespace PokeMarketplace {
   export type NFTListingStruct = {
     seller: AddressLike;
     tokenId: BigNumberish;
     price: BigNumberish;
-    listed: boolean;
+    isSold: boolean;
   };
 
   export type NFTListingStructOutput = [
     seller: string,
     tokenId: bigint,
     price: bigint,
-    listed: boolean
-  ] & { seller: string; tokenId: bigint; price: bigint; listed: boolean };
+    isSold: boolean
+  ] & { seller: string; tokenId: bigint; price: bigint; isSold: boolean };
 }
 
 export interface PokeMarketplaceInterface extends Interface {
@@ -45,7 +45,7 @@ export interface PokeMarketplaceInterface extends Interface {
       | "buyListing"
       | "cancelListing"
       | "createListing"
-      | "getAllNFTs"
+      | "getListing"
       | "listings"
       | "nft"
       | "owner"
@@ -70,7 +70,7 @@ export interface PokeMarketplaceInterface extends Interface {
     values: [BigNumberish, BigNumberish]
   ): string;
   encodeFunctionData(
-    functionFragment: "getAllNFTs",
+    functionFragment: "getListing",
     values?: undefined
   ): string;
   encodeFunctionData(
@@ -102,7 +102,7 @@ export interface PokeMarketplaceInterface extends Interface {
     functionFragment: "createListing",
     data: BytesLike
   ): Result;
-  decodeFunctionResult(functionFragment: "getAllNFTs", data: BytesLike): Result;
+  decodeFunctionResult(functionFragment: "getListing", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "listings", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "nft", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "owner", data: BytesLike): Result;
@@ -195,7 +195,7 @@ export interface PokeMarketplace extends BaseContract {
     "nonpayable"
   >;
 
-  getAllNFTs: TypedContractMethod<
+  getListing: TypedContractMethod<
     [],
     [PokeMarketplace.NFTListingStructOutput[]],
     "view"
@@ -208,7 +208,7 @@ export interface PokeMarketplace extends BaseContract {
         seller: string;
         tokenId: bigint;
         price: bigint;
-        listed: boolean;
+        isSold: boolean;
       }
     ],
     "view"
@@ -248,7 +248,7 @@ export interface PokeMarketplace extends BaseContract {
     "nonpayable"
   >;
   getFunction(
-    nameOrSignature: "getAllNFTs"
+    nameOrSignature: "getListing"
   ): TypedContractMethod<
     [],
     [PokeMarketplace.NFTListingStructOutput[]],
@@ -263,7 +263,7 @@ export interface PokeMarketplace extends BaseContract {
         seller: string;
         tokenId: bigint;
         price: bigint;
-        listed: boolean;
+        isSold: boolean;
       }
     ],
     "view"

@@ -23,12 +23,21 @@ import type {
 
 export interface IPokeNFTInterface extends Interface {
   getFunction(
-    nameOrSignature: "approve" | "ownerOf" | "safeMint" | "transferFrom"
+    nameOrSignature:
+      | "approve"
+      | "getApproved"
+      | "ownerOf"
+      | "safeMint"
+      | "transferFrom"
   ): FunctionFragment;
 
   encodeFunctionData(
     functionFragment: "approve",
     values: [AddressLike, BigNumberish]
+  ): string;
+  encodeFunctionData(
+    functionFragment: "getApproved",
+    values: [BigNumberish]
   ): string;
   encodeFunctionData(
     functionFragment: "ownerOf",
@@ -44,6 +53,10 @@ export interface IPokeNFTInterface extends Interface {
   ): string;
 
   decodeFunctionResult(functionFragment: "approve", data: BytesLike): Result;
+  decodeFunctionResult(
+    functionFragment: "getApproved",
+    data: BytesLike
+  ): Result;
   decodeFunctionResult(functionFragment: "ownerOf", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "safeMint", data: BytesLike): Result;
   decodeFunctionResult(
@@ -101,6 +114,8 @@ export interface IPokeNFT extends BaseContract {
     "nonpayable"
   >;
 
+  getApproved: TypedContractMethod<[tokenId: BigNumberish], [string], "view">;
+
   ownerOf: TypedContractMethod<[tokenId: BigNumberish], [string], "view">;
 
   safeMint: TypedContractMethod<
@@ -126,6 +141,9 @@ export interface IPokeNFT extends BaseContract {
     [void],
     "nonpayable"
   >;
+  getFunction(
+    nameOrSignature: "getApproved"
+  ): TypedContractMethod<[tokenId: BigNumberish], [string], "view">;
   getFunction(
     nameOrSignature: "ownerOf"
   ): TypedContractMethod<[tokenId: BigNumberish], [string], "view">;

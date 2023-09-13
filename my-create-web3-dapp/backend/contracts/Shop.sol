@@ -21,19 +21,20 @@ contract Shop {
         pokeNft = IPokeNFT(_pokeNft);
         ratio = _ratio;
         nftPrize = _nftPrize;
+        index = 1;
     }
 
     function buyTokenDigitalWithEther() public payable {
         require(msg.value > 0, "Ether amount must be greater than 0");
-        uint256 tokenAmount = msg.value * ratio;
+        uint256 tokenAmount = (msg.value * ratio);
 
         pokeToken.mint(msg.sender, tokenAmount);
     }
 
     function buyNFTWithToken() public {
         require(
-            pokeToken.transfer(address(this), nftPrize),
-            "Not enough tokens"
+            pokeToken.transferFrom(msg.sender, address(this), nftPrize),
+            "Token transfer failed"
         );
 
         pokeNft.safeMint(msg.sender, index);
