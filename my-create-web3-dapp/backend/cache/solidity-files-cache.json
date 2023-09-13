@@ -1120,8 +1120,8 @@
       ]
     },
     "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/Shop.sol": {
-      "lastModificationDate": 1694610372939,
-      "contentHash": "0b8a8f7e67d3213f22e0efe38b1d5ca8",
+      "lastModificationDate": 1694612259898,
+      "contentHash": "82b8088119d34ecf61687c224c567ce0",
       "sourceName": "contracts/Shop.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -1158,8 +1158,8 @@
       ]
     },
     "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/interfaces/IPokeNFT.sol": {
-      "lastModificationDate": 1694605362000,
-      "contentHash": "6d248791297ebdf3ee7000ff303543d6",
+      "lastModificationDate": 1694616420887,
+      "contentHash": "15f692515b5bddfccf9e34257fa774fc",
       "sourceName": "contracts/interfaces/IPokeNFT.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -1225,6 +1225,118 @@
       ],
       "artifacts": [
         "IPokeToken"
+      ]
+    },
+    "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/PokeMarketplace.sol": {
+      "lastModificationDate": 1694616442967,
+      "contentHash": "0fc9d54f4a7327b59f8fe8702351a2da",
+      "sourceName": "contracts/PokeMarketplace.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IPokeNFT.sol",
+        "./interfaces/IPokeToken.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "NFTMarketplace"
+      ]
+    },
+    "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol": {
+      "lastModificationDate": 1694594031354,
+      "contentHash": "1535f8c0c68463f8c1b5239f7584e71f",
+      "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/NftMarketplace.sol": {
+      "lastModificationDate": 1694613428738,
+      "contentHash": "c8de392ba5c1b0cdaecc92aff60e376e",
+      "sourceName": "contracts/NftMarketplace.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "NftMarketplace"
       ]
     }
   }
