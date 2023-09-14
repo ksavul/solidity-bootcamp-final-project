@@ -25,6 +25,7 @@ export interface ShopInterface extends Interface {
       | "buyNFTWithToken"
       | "buyTokenDigitalWithEther"
       | "getNftPrize"
+      | "mintedTokens"
       | "pokeNft"
       | "pokeToken"
   ): FunctionFragment;
@@ -41,6 +42,10 @@ export interface ShopInterface extends Interface {
     functionFragment: "getNftPrize",
     values?: undefined
   ): string;
+  encodeFunctionData(
+    functionFragment: "mintedTokens",
+    values?: undefined
+  ): string;
   encodeFunctionData(functionFragment: "pokeNft", values?: undefined): string;
   encodeFunctionData(functionFragment: "pokeToken", values?: undefined): string;
 
@@ -54,6 +59,10 @@ export interface ShopInterface extends Interface {
   ): Result;
   decodeFunctionResult(
     functionFragment: "getNftPrize",
+    data: BytesLike
+  ): Result;
+  decodeFunctionResult(
+    functionFragment: "mintedTokens",
     data: BytesLike
   ): Result;
   decodeFunctionResult(functionFragment: "pokeNft", data: BytesLike): Result;
@@ -109,6 +118,8 @@ export interface Shop extends BaseContract {
 
   getNftPrize: TypedContractMethod<[], [bigint], "view">;
 
+  mintedTokens: TypedContractMethod<[], [bigint[]], "view">;
+
   pokeNft: TypedContractMethod<[], [string], "view">;
 
   pokeToken: TypedContractMethod<[], [string], "view">;
@@ -126,6 +137,9 @@ export interface Shop extends BaseContract {
   getFunction(
     nameOrSignature: "getNftPrize"
   ): TypedContractMethod<[], [bigint], "view">;
+  getFunction(
+    nameOrSignature: "mintedTokens"
+  ): TypedContractMethod<[], [bigint[]], "view">;
   getFunction(
     nameOrSignature: "pokeNft"
   ): TypedContractMethod<[], [string], "view">;

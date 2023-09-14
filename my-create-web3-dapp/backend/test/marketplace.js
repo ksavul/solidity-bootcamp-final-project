@@ -51,8 +51,10 @@ describe("Marketplace contract", function () {
             await token.approve(instance.target, 10000);
             await instance.buyNFTWithToken();
             
-            await nft.approve(market.target, 1);
-            await market.createListing(1, 100);
+            const array = await instance.mintedTokens();
+            const index = array[0];
+            await nft.approve(market.target, index);
+            await market.createListing(index, 100);
 
  
          });
@@ -66,8 +68,10 @@ describe("Marketplace contract", function () {
             await token.approve(instance.target, 10000);
             await instance.buyNFTWithToken();
             
-            await nft.approve(market.target, 1);
-            await expect(market.connect(user1).createListing(1, 100)).to.reverted;
+            const array = await instance.mintedTokens();
+            const index = array[0];
+            await nft.approve(market.target, index);
+            await expect(market.connect(user1).createListing(index, 100)).to.reverted;
  
          });
 
@@ -82,12 +86,14 @@ describe("Marketplace contract", function () {
             await token.connect(user1).approve(market.target, 10000);
             await instance.buyNFTWithToken();
             
-            await nft.approve(market.target, 1);
-            await market.createListing(1, 100);
-            await market.connect(user1).buyListing(1);
+            const array = await instance.mintedTokens();
+            const index = array[0];
+            await nft.approve(market.target, index);
+            await market.createListing(index, 100);
+            await market.connect(user1).buyListing(index);
             expect(await nft.balanceOf(user1.address)).to.equal(1)
             expect(await nft.balanceOf(owner.address)).to.equal(0)
-            expect(await nft.ownerOf(1)).to.equal(user1.address)
+            expect(await nft.ownerOf(index)).to.equal(user1.address)
  
          });
 
@@ -102,8 +108,10 @@ describe("Marketplace contract", function () {
             await token.connect(user1).approve(market.target, 10000);
             await instance.buyNFTWithToken();
             
-            await nft.approve(market.target, 1);
-            await market.createListing(1, 2000);
+            const array = await instance.mintedTokens();
+            const index = array[0];
+            await nft.approve(market.target, index);
+            await market.createListing(index, 2000);
             await expect(market.connect(user1).buyListing(1)).to.reverted;
 
  
@@ -120,9 +128,11 @@ describe("Marketplace contract", function () {
             await token.connect(user1).approve(market.target, 10000);
             await instance.buyNFTWithToken();
             
-            await nft.approve(market.target, 1);
+            const array = await instance.mintedTokens();
+            const index = array[0];
+            await nft.approve(market.target, index);
            
-            await expect(market.connect(user1).buyListing(1)).to.reverted;
+            await expect(market.connect(user1).buyListing(index)).to.reverted;
 
  
          });
@@ -138,10 +148,12 @@ describe("Marketplace contract", function () {
             await token.connect(user1).approve(market.target, 10000);
             await instance.buyNFTWithToken();
             
-            await nft.approve(market.target, 1);
-            await market.createListing(1, 100);
-            await market.cancelListing(1);
-            await expect(market.connect(user1).buyListing(1)).to.reverted;
+            const array = await instance.mintedTokens();
+            const index = array[0];
+            await nft.approve(market.target,index);
+            await market.createListing(index, 100);
+            await market.cancelListing(index);
+            await expect(market.connect(user1).buyListing(index)).to.reverted;
  
          });
 

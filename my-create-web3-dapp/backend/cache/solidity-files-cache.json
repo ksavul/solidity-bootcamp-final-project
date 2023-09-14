@@ -1120,8 +1120,8 @@
       ]
     },
     "/home/domingo/solidity-bootcamp-final-project/my-create-web3-dapp/backend/contracts/Shop.sol": {
-      "lastModificationDate": 1694621533102,
-      "contentHash": "7610920e975ff1ad87412a7bf6fa2c0e",
+      "lastModificationDate": 1694690398316,
+      "contentHash": "3d27275e29c0b2145d0468d8f5e5d276",
       "sourceName": "contracts/Shop.sol",
       "solcConfig": {
         "version": "0.8.19",

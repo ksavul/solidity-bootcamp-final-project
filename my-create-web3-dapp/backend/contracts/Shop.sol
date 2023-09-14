@@ -9,7 +9,9 @@ contract Shop {
     IPokeNFT public pokeNft;
     uint256 private ratio;
     uint256 private nftPrize;
-    uint256 private index;
+
+    mapping(uint256 => bool) private isMinted;
+    uint256[] private minted;
 
     constructor(
         address _pokeToken,
@@ -21,7 +23,6 @@ contract Shop {
         pokeNft = IPokeNFT(_pokeNft);
         ratio = _ratio;
         nftPrize = _nftPrize;
-        index = 1;
     }
 
     function buyTokenDigitalWithEther() public payable {
@@ -36,12 +37,23 @@ contract Shop {
             pokeToken.transferFrom(msg.sender, address(this), nftPrize),
             "Token transfer failed"
         );
+        require(minted.length < 160, "All nfts have been minted");
 
+        uint256 index = block.prevrandao % 160;
+        while (isMinted[index]) {
+            index = (index + 1) % 160;
+        }
+
+        isMinted[index] = true;
+        minted.push(index);
         pokeNft.safeMint(msg.sender, index);
-        index++;
     }
 
     function getNftPrize() public view returns (uint256) {
         return nftPrize;
+    }
+
+    function mintedTokens() public view returns (uint256[] memory) {
+        return minted;
     }
 }
