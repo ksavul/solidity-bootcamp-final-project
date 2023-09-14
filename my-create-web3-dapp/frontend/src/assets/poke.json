@@ -1,0 +1,1791 @@
+[
+  {
+    "id": "swsh12pt5-160",
+    "images": {
+      "large": "https://ipfs.io/ipfs/QmdZGM46Z2GLXZfvcU2D6YevYaZ42GX7RDjJxwNzmb49FM",
+      "small": "https://ipfs.io/ipfs/QmXKaYExueKhyEUKXstrEjCtDufKso4N7Jk3yoe7Q5Ttyz"
+    },
+    "name": "Pikachu",
+    "number": "160",
+    "rarity": "Rare Secret",
+    "set": "swsh12pt5",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "sm10-33",
+    "images": {
+      "large": "https://ipfs.io/ipfs/QmbadFQyvQP92UNbZJDkaLo7wXdkAQB5o3fqSSoEuhRfZN",
+      "small": "https://ipfs.io/ipfs/QmVUL6w5LRjBBaWwmB2s3kQM3SihqAk5vky9R7PjNgxju8"
+    },
+    "name": "Squirtle",
+    "number": "33",
+    "rarity": "Common",
+    "set": "sm10",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "sm115-7",
+    "images": {
+      "large": "https://ipfs.io/ipfs/QmYYpWDuKaXv8jC9x5he9G9niQpQS6gbU4SNoBRf97x1ro",
+      "small": "https://ipfs.io/ipfs/QmUEGADLpouYPsPCet6MnV8W81QS7WJEwJvMRPvpKhfMuU"
+    },
+    "name": "Charmander",
+    "number": "7",
+    "rarity": "Common",
+    "set": "sm115",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "id": "sm35-1",
+    "images": {
+      "large": "https://ipfs.io/ipfs/QmdB8DSh78K6upGR5F7zJwqPQaSyNN4aBnob6QiWa5Y7CP",
+      "small": "https://ipfs.io/ipfs/QmfPxH5DGtZ3GWBSpjJhLDaTDuTv5pQzrqNavLU7jQgSzA"
+    },
+    "name": "Bulbasaur",
+    "number": "1",
+    "rarity": "Common",
+    "set": "sm35",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "id": "swsh12-127",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/127_foil_holo_reverse.jpg",
+      "large": "https://ipfs.io/ipfs/Qmb2DSrVsyDjk1gpr4K5JXnopFMHg3sv8jGBPBAuoaiynv",
+      "mask": "/img/foils/swsh12/masks/127_foil_holo_reverse.png",
+      "small": "https://ipfs.io/ipfs/QmTxdayF1DqPFnqq4eLxWXfuqtd56Afo7FvKgiuMuJTc3V"
+    },
+    "name": "Togedemaru",
+    "number": "127",
+    "rarity": "Common",
+    "set": "swsh12",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ]
+  },
+  {
+    "id": "swsh12-85",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/085_foil_holo_reverse.jpg",
+      "large": "https://ipfs.io/ipfs/QmaHk3ZLmkJH8KSx6ceSZJw7eszV95swdoHcqdXjriVED9",
+      "mask": "/img/foils/swsh12/masks/085_foil_holo_reverse.png",
+      "small": "https://ipfs.io/ipfs/QmdEND7dbUUyYKJCZZyMMaDLhc4ZE2P4fs9528UhqDjuJw"
+    },
+    "name": "Dedenne",
+    "number": "85",
+    "rarity": "Uncommon",
+    "set": "swsh12",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh12-116",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/116_foil_holo_reverse.jpg",
+      "large": "https://ipfs.io/ipfs/QmZV7rk51eB7SZ8RUL5hr9Unv8wQjP35wahv4uzKbn94kz",
+      "mask": "/img/foils/swsh12/masks/116_foil_holo_reverse.png",
+      "small": "https://ipfs.io/ipfs/QmWWVLmDZJfrM9hfovm3tFvywbzXJEFatv7GtFwNjZApCk"
+    },
+    "name": "Morpeko",
+    "number": "116",
+    "rarity": "Uncommon",
+    "set": "swsh12",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ]
+  },
+  {
+    "id": "pgo-24",
+    "images": {
+      "foil": "/img/foils/pgo/foils/024_foil_holo_swholo.jpg",
+      "large": "https://ipfs.io/ipfs/QmeZPqx8jREqrXRZHET9TmeSuEnnZERotC6aCdKShywn16",
+      "mask": "/img/foils/pgo/masks/024_foil_holo_swholo.png",
+      "small": "https://ipfs.io/ipfs/QmPzoT3BzHXdSr7zidP4jYqfoHVsTqcg4U43vSciFwuRrZ"
+    },
+    "name": "Articuno",
+    "number": "24",
+    "rarity": "Rare Holo",
+    "set": "pgo",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "pgo-29",
+    "images": {
+      "foil": "/img/foils/pgo/foils/029_foil_holo_swholo.jpg",
+      "large": "https://ipfs.io/ipfs/Qmb6rC8Yx7FiDyznEMYCXawQ6ZTC5FzBQdJwEo3TSonfin",
+      "mask": "/img/foils/pgo/masks/029_foil_holo_swholo.png",
+      "small": "https://ipfs.io/ipfs/QmT3RtDekUehXiXwHpR3E9yskThe7Su6xvyVsNoxnSs4P9"
+    },
+    "name": "Zapdos",
+    "number": "29",
+    "rarity": "Rare Holo",
+    "set": "pgo",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "pgo-12",
+    "images": {
+      "foil": "/img/foils/pgo/foils/012_foil_holo_swholo.jpg",
+      "large": "https://ipfs.io/ipfs/QmciNmejES76njwfrKujXZQgiMKxFrfZ27AiNxGEQEoFuY",
+      "mask": "/img/foils/pgo/masks/012_foil_holo_swholo.png",
+      "small": "https://ipfs.io/ipfs/QmXG8ZxwwRfkQRGYqYQjLWE6GDVaqWA6XNZbZj6rWVdMsx"
+    },
+    "name": "Moltres",
+    "number": "12",
+    "rarity": "Rare Holo",
+    "set": "pgo",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "id": "swsh1-85",
+    "images": {
+      "foil": "/img/foils/swsh1/foils/085_foil_holo_swholo.jpg",
+      "large": "https://ipfs.io/ipfs/QmPqPWaVDM92K7yVztGb3xaPMC1cXhywYUm1zo1TJbZPBs",
+      "mask": "/img/foils/swsh1/masks/085_foil_holo_swholo.png",
+      "small": "https://ipfs.io/ipfs/QmctmvVqRKeGjvinaot85Pc8zuVts9UEi3y3bgPNuWiivq"
+    },
+    "name": "Gengar",
+    "number": "85",
+    "rarity": "Rare Holo",
+    "set": "swsh1",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh9-132",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/132_foil_holo_swholo.jpg",
+      "large": "https://ipfs.io/ipfs/QmWd7M19bRpSMXao86PwzpLWBHqUULy9j8uU6ztG5PrWHK",
+      "mask": "/img/foils/swsh9/masks/132_foil_holo_swholo.png",
+      "small": "https://ipfs.io/ipfs/QmaDZiyEg4WKhhUiAoFwwmahpp9uPqjsfbzoZ5z2qKnAYT"
+    },
+    "name": "Boss's Orders",
+    "number": "132",
+    "rarity": "Rare Holo",
+    "set": "swsh9",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "pgo-43",
+    "images": {
+      "foil": "/img/foils/pgo/foils/043_foil_holo_swholo.jpg",
+      "large": "https://ipfs.io/ipfs/QmWpk1nCYHqt1tEmB5xBKB71KAbU3Rsg8osch2pAo3KiHs",
+      "mask": "/img/foils/pgo/masks/043_foil_holo_swholo.png",
+      "small": "https://ipfs.io/ipfs/QmVt6kqGPc5ek14agfhjTZJsV8UR4qDYBLxbo5rVJQtgYW"
+    },
+    "name": "Tyranitar",
+    "number": "43",
+    "rarity": "Rare Holo",
+    "set": "pgo",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ]
+  },
+  {
+    "id": "swshp-SWSH012",
+    "images": {
+      "foil": "/img/foils/swshp/foils/012_foil_holo_cosmos.jpg",
+      "large": "https://ipfs.io/ipfs/QmVDvreuMRBEDHEm3tuZ5YELpSq5mz8JE51ugfzECBCKqV",
+      "mask": "/img/foils/swshp/masks/012_foil_holo_cosmos.png",
+      "small": "https://ipfs.io/ipfs/QmVv3uiEXqBRe7fSgkgP61AKggPX9WXefFPyVWEfaaBtQT"
+    },
+    "name": "Morpeko",
+    "number": "SWSH012",
+    "rarity": "Rare Holo Cosmos",
+    "set": "swshp",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh45-60",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/060_foil_holo_swholo.jpg",
+      "large": "https://ipfs.io/ipfs/QmRxgo6KfARcjuZFnmRHf4AwX6ABuSZNzrNHSLNoDS5b4t",
+      "mask": "/img/foils/swsh45/masks/060_foil_holo_swholo.png",
+      "small": "https://ipfs.io/ipfs/QmdMZJ7vcgjoXAdpfNUdnSRm4TtVm48NoYdo1Ac5bb2KtX"
+    },
+    "name": "Professor's Research",
+    "number": "60",
+    "rarity": "Rare Holo Cosmos",
+    "set": "swsh45",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swshp-SWSH127",
+    "images": {
+      "foil": "/img/foils/swshp/foils/127_foil_holo_cosmos.jpg",
+      "large": "https://ipfs.io/ipfs/QmambSv571MxwJni7DQZs5dVfmGJ8JYSZKuLnvgCzEw9MX",
+      "mask": "/img/foils/swshp/masks/127_foil_holo_cosmos.png",
+      "small": "https://ipfs.io/ipfs/QmY72ny5RQGBoHjLG21Rn9ZLBJN6YJr6pcgh8tnAdh5RqH"
+    },
+    "name": "Eevee",
+    "number": "SWSH127",
+    "rarity": "Rare Holo Cosmos",
+    "set": "swshp",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "pgo-11",
+    "images": {
+      "foil": "/img/foils/pgo/foils/011_foil_etched_radiantholo.jpg",
+      "large": "https://ipfs.io/ipfs/QmWMQ8qLKsoo2CqrucZuT41EwFZvqadzut8uefMtxV7djW",
+      "mask": "/img/foils/pgo/masks/011_foil_etched_radiantholo.png",
+      "small": "https://ipfs.io/ipfs/QmTQSrtu6QVuHPB7CR44nWBggVVZjESid33popGUTAWcXa"
+    },
+    "name": "Radiant Charizard",
+    "number": "11",
+    "rarity": "Radiant Rare",
+    "set": "pgo",
+    "subtypes": [
+      "Basic",
+      "Radiant"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "id": "swsh12-59",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/059_foil_etched_radiantholo.jpg",
+      "large": "https://ipfs.io/ipfs/QmbRNYTPuJRYL2XmSATSpmmdSZD6K7168fgtcb7fwbrvAP",
+      "mask": "/img/foils/swsh12/masks/059_foil_etched_radiantholo.png",
+      "small": "https://ipfs.io/ipfs/QmT1GoqpqtkiP6LzC5eB2g8U77HV6KpZ33yk3VK5rY14pm"
+    },
+    "name": "Radiant Alakazam",
+    "number": "59",
+    "rarity": "Radiant Rare",
+    "set": "swsh12",
+    "subtypes": [
+      "Basic",
+      "Radiant"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh12-120",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/120_foil_etched_radiantholo.jpg",
+      "large": "https://ipfs.io/ipfs/QmXdg4SMqVKdkPEaugDDjrEhdToVxHENePAxytV2j1ykMj",
+      "mask": "/img/foils/swsh12/masks/120_foil_etched_radiantholo.png",
+      "small": "https://ipfs.io/ipfs/QmVSz6GVdxui8C7cxJcvboFWzQeYSWfRDeMM2UvbRgEBXu"
+    },
+    "name": "Radiant Jirachi",
+    "number": "120",
+    "rarity": "Radiant Rare",
+    "set": "swsh12",
+    "subtypes": [
+      "Basic",
+      "Radiant"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ]
+  },
+  {
+    "id": "swsh11tg-TG03",
+    "images": {
+      "foil": "/img/foils/swsh11/foils/tg03_foil_holo_rainbow.jpg",
+      "large": "https://ipfs.io/ipfs/QmY3efNiuaCHwNu3tcCsmeWq7dXrCq3eG36ZRbz4FeBYZm",
+      "mask": "/img/foils/swsh11/masks/tg03_foil_holo_rainbow.png",
+      "small": "https://ipfs.io/ipfs/Qmdnmou8jFBJMLq9PNhvXzDK9UCZJNk5K9Cjj9zT3JYEz6"
+    },
+    "name": "Charizard",
+    "number": "TG03",
+    "rarity": "trainer gallery rare holo",
+    "set": "swsh11tg",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "id": "swsh11tg-TG05",
+    "images": {
+      "foil": "/img/foils/swsh11/foils/tg05_foil_holo_rainbow.jpg",
+      "large": "https://ipfs.io/ipfs/QmUcLDdVBLYTAVZR225v1cshJ9wzEwFTTKqWiRmG472Zxz",
+      "mask": "/img/foils/swsh11/masks/tg05_foil_holo_rainbow.png",
+      "small": "https://ipfs.io/ipfs/QmauUe8NtHUinkbfYJ6Bb72JKZgWXrpCz29BBcPppze27b"
+    },
+    "name": "Pikachu",
+    "number": "TG05",
+    "rarity": "trainer gallery rare holo",
+    "set": "swsh11tg",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh12tg-TG02",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/tg02_foil_holo_rainbow.jpg",
+      "large": "https://ipfs.io/ipfs/Qmf1CvNS8znvyCcaVvucZhcJw2ssthKN14njD3J9XArVm5",
+      "mask": "/img/foils/swsh12/masks/tg02_foil_holo_rainbow.png",
+      "small": "https://ipfs.io/ipfs/QmYM98ep7T1kMJ4UMmJEKBpr71Yz46u1Jobdu9bM67fsV5"
+    },
+    "name": "Milotic",
+    "number": "TG02",
+    "rarity": "Trainer Gallery Rare Holo",
+    "set": "swsh12tg",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "swsh7-110",
+    "images": {
+      "foil": "/img/foils/swsh7/foils/110_foil_holo_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmeCpeJQNMqFbjca5usmemchudpnSbRtTYotVTvVCMhPD1",
+      "mask": "/img/foils/swsh7/masks/110_foil_holo_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmVBdK4fWL1HtMRUep5f1Zk35ot2oVpGLoTRpQFhUF7UoB"
+    },
+    "name": "Rayquaza V",
+    "number": "110",
+    "rarity": "Rare Holo V",
+    "set": "swsh7",
+    "subtypes": [
+      "Basic",
+      "V",
+      "Rapid Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": "swsh12-138",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/138_foil_holo_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmQWJTgC1Z4nWqfkKGgQyUfWuG2n3x2E75mp6C21HEniP9",
+      "mask": "/img/foils/swsh12/masks/138_foil_holo_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmV8M2f2vd8bSuhV8i1Bi7odAjcZUuhhdsm1W1mjAHhCR2"
+    },
+    "name": "Lugia V",
+    "number": "138",
+    "rarity": "Rare Holo V",
+    "set": "swsh12",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "pgo-49",
+    "images": {
+      "foil": "/img/foils/pgo/foils/049_foil_holo_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmREPvFtkwqc5FrXsbt72rXri2ufjmosGAPNseyhvLdQKg",
+      "mask": "/img/foils/pgo/masks/049_foil_holo_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmWvJL6nTr3pYeLzN1PJEutxr2hxHSxCGtqgtw9qNNxVT3"
+    },
+    "name": "Dragonite V",
+    "number": "49",
+    "rarity": "Rare Holo V",
+    "set": "pgo",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": "swsh8-250",
+    "images": {
+      "foil": "/img/foils/swsh8/foils/250_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmZLS22vbAJHqvh1NNeJ5T9tokbdh51HjnTCeEXkcbYShh",
+      "mask": "/img/foils/swsh8/masks/250_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmUf3m9uxrremt8cgAHooyXrMzzDbhZfBae9S2WFdWLvHm"
+    },
+    "name": "Mew V",
+    "number": "250",
+    "rarity": "Rare Ultra",
+    "set": "swsh8",
+    "subtypes": [
+      "Basic",
+      "V",
+      "Fusion Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh3-183",
+    "images": {
+      "foil": "/img/foils/swsh3/foils/183_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmUstZxG4keFPMmjUUtLDGTge2fsgpzYoq9iMThpjx7e1j",
+      "mask": "/img/foils/swsh3/masks/183_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmVbe7cezzwmQzt7E2P1MvFfqRiM5JY8g1XC9tgMPf6AxG"
+    },
+    "name": "Scizor V",
+    "number": "183",
+    "rarity": "Rare Ultra",
+    "set": "swsh3",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ]
+  },
+  {
+    "id": "swsh12-176",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/176_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmZvv5Pb6ULYgDtg49zRRoBwkzvJyVRU8vj4RfxsLtHzv4",
+      "mask": "/img/foils/swsh12/masks/176_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmTeGMPyUBmPHrNAgskEvLw2i5KB9JPb1txkxDrCYSHenj"
+    },
+    "name": "Unown V",
+    "number": "176",
+    "rarity": "Rare Ultra",
+    "set": "swsh12",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swshp-SWSH179",
+    "images": {
+      "foil": "/img/foils/swshp/foils/179_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmTD5qLyjbHsUS8D64XRFwy35pVhaYLumPPFbRybC5v7JB",
+      "mask": "/img/foils/swshp/masks/179_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmTPpgYK7Z8wD9vLj8xbSs2ompm5LUwJ9pr9ei6MPguM3a"
+    },
+    "name": "Flareon V",
+    "number": "SWSH179",
+    "rarity": "Rare Ultra",
+    "set": "swshp",
+    "subtypes": [
+      "Basic",
+      "V",
+      "Single Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "id": "swshp-SWSH181",
+    "images": {
+      "foil": "/img/foils/swshp/foils/181_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/Qmabg8wdAkZRS7cnRTSTSr1PeDfQkirJGcBvrZH25Py3bD",
+      "mask": "/img/foils/swshp/masks/181_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmbgdmjCZGyX1k4Zh3xQYqGvdf24zjFs5oHb3mqaLfg8nQ"
+    },
+    "name": "Vaporeon V",
+    "number": "SWSH181",
+    "rarity": "Rare Ultra",
+    "set": "swshp",
+    "subtypes": [
+      "Basic",
+      "V",
+      "Rapid Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "swshp-SWSH183",
+    "images": {
+      "foil": "/img/foils/swshp/foils/183_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmTh8vQjmKKU6QEGPZ1LgstQ88XTfN3V7ZyhFf2pfCrnzH",
+      "mask": "/img/foils/swshp/masks/183_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmakSonWVCA2xkDeS4CoABccF8Wo3RWLR9foeBYi9Kkjsv"
+    },
+    "name": "Jolteon V",
+    "number": "SWSH183",
+    "rarity": "Rare Ultra",
+    "set": "swshp",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh8-245",
+    "images": {
+      "foil": "/img/foils/swsh8/foils/245_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/Qma5PgsUW7YNkGHLVfBBJQYUnt6kP9F33e7qPEyL1uFxzU",
+      "mask": "/img/foils/swsh8/masks/245_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmQH1yjrZHJYKCcwxwhwC6aoDXZvZwiAcZHbULwp5iGo9K"
+    },
+    "name": "Celebi V",
+    "number": "245",
+    "rarity": "Rare Ultra",
+    "set": "swsh8",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "id": "swsh11-186",
+    "images": {
+      "foil": "/img/foils/swsh11/foils/186_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmYMvEBxG1vAyZX9eaMvL2Fzi2uaLjxdL74zMWSqGdaL5k",
+      "mask": "/img/foils/swsh11/masks/186_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmRS1u6kLyHYwemVwz2uqLRKEqumAeRuEYbRmjqeWL8Xbx"
+    },
+    "name": "Giratina V",
+    "number": "186",
+    "rarity": "Rare Ultra",
+    "set": "swsh11",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": "swsh10-177",
+    "images": {
+      "foil": "/img/foils/swsh10/foils/177_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmeFtzQiGDt9NmyVWDj8B1RwAwF9TKhssZbYJaU1yRX6dc",
+      "mask": "/img/foils/swsh10/masks/177_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmVhuZ4Bju2GDKg1DeVVqaGGMQDiM9h7H6TropSNGCkRsd"
+    },
+    "name": "Origin Forme Dialga V",
+    "number": "177",
+    "rarity": "Rare Ultra",
+    "set": "swsh10",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ]
+  },
+  {
+    "id": "swshp-SWSH180",
+    "images": {
+      "large": "https://ipfs.io/ipfs/QmVbSXNBxhCu7tTAiVVFz251v88XEpe45u9Zf2eeXNRfsq",
+      "small": "https://ipfs.io/ipfs/Qmat7FN9Zi3Jr5scBkw6axXehjW3vvnTL5SPdjDM9Gebbk"
+    },
+    "name": "Flareon VMAX",
+    "number": "SWSH180",
+    "rarity": "Rare Rainbow",
+    "set": "swshp",
+    "subtypes": [
+      "VMAX",
+      "Single Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "id": "swshp-SWSH182",
+    "images": {
+      "large": "https://ipfs.io/ipfs/QmcTf2QYVCdcnLqGk7LpXZBqeankB6ip2C1dW8GQFcVXMv",
+      "small": "https://ipfs.io/ipfs/QmdCCrPUPpVPvHv9b1ma9NBeAyzbrSfuZ63qvvdAHmobqd"
+    },
+    "name": "Vaporeon VMAX",
+    "number": "SWSH182",
+    "rarity": "Rare Rainbow",
+    "set": "swshp",
+    "subtypes": [
+      "VMAX",
+      "Rapid Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "swshp-SWSH184",
+    "images": {
+      "large": "https://ipfs.io/ipfs/Qmaq1xxqcuhSsFLuKSdMxVKhZqmvnUVQ5HdZsJrqAdxgRB",
+      "small": "https://ipfs.io/ipfs/QmQMzegoZnkoFzZ3queBckhLjGjUJDWf4tCR7iTFKYQ6No"
+    },
+    "name": "Jolteon VMAX",
+    "number": "SWSH184",
+    "rarity": "Rare Rainbow",
+    "set": "swshp",
+    "subtypes": [
+      "VMAX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh7-29",
+    "images": {
+      "foil": "/img/foils/swsh7/foils/029_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmWCczvwx5P67QuitaN7nEysdEKP3MGvn2MQhYH7jkcuQt",
+      "mask": "/img/foils/swsh7/masks/029_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmPqfzqC91KmjtWH8D4hCmsiq4uDzpkk1ixxVvTaomS6zf"
+    },
+    "name": "Gyarados VMAX",
+    "number": "29",
+    "rarity": "Rare Holo VMAX",
+    "set": "swsh7",
+    "subtypes": [
+      "VMAX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "swsh45-51",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/051_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmcWy2DUMKNuDp6UJnsTxRxiDFmjeUsvWeTLRxrnSHW5hS",
+      "mask": "/img/foils/swsh45/masks/051_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmRmrnyssZsXvdWUp6sET3Z4pfUjPqk5enfeDXtFEgdJVJ"
+    },
+    "name": "Ditto VMAX",
+    "number": "51",
+    "rarity": "Rare Holo VMAX",
+    "set": "swsh45",
+    "subtypes": [
+      "VMAX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "swsh9-29",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/029_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmUeRLEhDMGCdkaFNhR4vh1GEYWdHt5EZHk9qV4kYK5AhF",
+      "mask": "/img/foils/swsh9/masks/029_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmZLY2tJkWzjkwxJThYM6RfZA7NzzskSwShBF2mTvubDYD"
+    },
+    "name": "Kingler VMAX",
+    "number": "29",
+    "rarity": "Rare Holo VMAX",
+    "set": "swsh9",
+    "subtypes": [
+      "VMAX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "swsh8-270",
+    "images": {
+      "foil": "/img/foils/swsh8/foils/270_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmT5i6XdNkkFji6dBzAMuwfSCQPxsDzXGKBUXMDqCnD4B6",
+      "mask": "/img/foils/swsh8/masks/270_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmP95i7PZe29HWYssxrpf28rPDvk35BQ55zUaisA8TKMJf"
+    },
+    "name": "Espeon VMAX",
+    "number": "270",
+    "rarity": "Rare Rainbow",
+    "set": "swsh8",
+    "subtypes": [
+      "VMAX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh8-271",
+    "images": {
+      "foil": "/img/foils/swsh8/foils/271_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmZBsH29iddgCYsaNJ4Qogh7r8cZB87CHNXEKAxAQeC1ES",
+      "mask": "/img/foils/swsh8/masks/271_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmPk28vvpyMsKn6T6UkX4y5ie2DcY7uoSptLZP9sxLATso"
+    },
+    "name": "Gengar VMAX",
+    "number": "271",
+    "rarity": "Rare Rainbow",
+    "set": "swsh8",
+    "subtypes": [
+      "VMAX",
+      "Single Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ]
+  },
+  {
+    "id": "swsh7-215",
+    "images": {
+      "foil": "/img/foils/swsh7/foils/215_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmdBVARfiSxLWG4dtghUTVueq1v8M83sGxKEMhFJyC7CPP",
+      "mask": "/img/foils/swsh7/masks/215_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmXzdHeFcjBHPQtRnHuJe5QZDQr6xmKStgc6XATW8FyK4e"
+    },
+    "name": "Umbreon VMAX",
+    "number": "215",
+    "rarity": "Rare Rainbow",
+    "set": "swsh7",
+    "subtypes": [
+      "VMAX",
+      "Single Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ]
+  },
+  {
+    "id": "pgo-31",
+    "images": {
+      "foil": "/img/foils/pgo/foils/031_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmdCpCc86fqYpTqmrJVCc5Js7ep6dhZBnKqYmJxmiiGLu3",
+      "mask": "/img/foils/pgo/masks/031_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmZdTZSFRTK8hWGZzmWWALW8WdeWd4YPUjnae8K8krNeSs"
+    },
+    "name": "Mewtwo VSTAR",
+    "number": "31",
+    "rarity": "Rare Holo VSTAR",
+    "set": "pgo",
+    "subtypes": [
+      "VSTAR"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swshp-SWSH214",
+    "images": {
+      "foil": "/img/foils/swshp/foils/214_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmVHCCwth85EyY23A49btwSPcDDgQajc4byo7bbTqjetSQ",
+      "mask": "/img/foils/swshp/masks/214_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmNkYA1rSreTB9rqJZTDL77fiQ6U4WgRUBJtFo4rQSAdov"
+    },
+    "name": "Lucario VSTAR",
+    "number": "SWSH214",
+    "rarity": "Rare Holo VSTAR",
+    "set": "swshp",
+    "subtypes": [
+      "VSTAR"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": "swsh9-18",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/018_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmYLEhcMurYeoMMAJCwwRPqVVPLViqDgGyfFMqJvuqTZqu",
+      "mask": "/img/foils/swsh9/masks/018_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmbnZ6TgBMBN1fu5HFUAZDtV8FMAaZezXjMirMvWCZY5Z5"
+    },
+    "name": "Charizard VSTAR",
+    "number": "18",
+    "rarity": "Rare Holo VSTAR",
+    "set": "swsh9",
+    "subtypes": [
+      "VSTAR"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "id": "swsh6-196",
+    "images": {
+      "foil": "/img/foils/swsh6/foils/196_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmNSBJjhW6A6P3G1uaVygsJiWdJBoKGMRGdN1XMCjWNVqX",
+      "mask": "/img/foils/swsh6/masks/196_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmaSS4PHuaUE7ZjnysD85dj6VVE8Gu89ADiUgmSNbz7aMg"
+    },
+    "name": "Peonia",
+    "number": "196",
+    "rarity": "Rare Ultra",
+    "set": "swsh6",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh9-167",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/167_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/Qme1imweLyGqbaqcjp7Qq3DvXYhc7umBTKprboLHNgf1eG",
+      "mask": "/img/foils/swsh9/masks/167_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmfDuVDesNUrBaPbU5KkoJ7whkRBwr2yLBfqhx62oH1jaU"
+    },
+    "name": "Barry",
+    "number": "167",
+    "rarity": "Rare Ultra",
+    "set": "swsh9",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh1-200",
+    "images": {
+      "foil": "/img/foils/swsh1/foils/200_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmTk78gooGB8ariyjULNyo2gM43ZvRDUwifRFX9EpZPFD6",
+      "mask": "/img/foils/swsh1/masks/200_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmYjpHAT91xoby22F5VdFD4nftsDU5QeYVxPhLabR6MRDB"
+    },
+    "name": "Marnie",
+    "number": "200",
+    "rarity": "Rare Ultra",
+    "set": "swsh1",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh11tg-TG27",
+    "images": {
+      "foil": "/img/foils/swsh11/foils/tg27_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/Qme9UptzoviDs9F5MzcHaGwUuMrjQuWPgv3GjnrxdpDxvr",
+      "mask": "/img/foils/swsh11/masks/tg27_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/Qmbn4EnvgeMasGoC2uBr1AaXRBQgDNcP8SkWdyqCNVy5Rx"
+    },
+    "name": "Nessa",
+    "number": "TG27",
+    "rarity": "Rare Ultra",
+    "set": "swsh11tg",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh12tg-TG26",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/tg26_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmPkPbGwKS91CTcuPwUjb8huJcwpnxQ1YdfzSQ4nn9KgWx",
+      "mask": "/img/foils/swsh12/masks/tg26_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmbCbGrw4sKx4a3o2wvox9empWwYy68XjWxskqC16nNzWK"
+    },
+    "name": "Professor Burnet",
+    "number": "TG26",
+    "rarity": "Rare Ultra",
+    "set": "swsh12tg",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh11tg-TG26",
+    "images": {
+      "foil": "/img/foils/swsh11/foils/tg26_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmPfbgSevLDZ5w5Ci29hksfrFye6XgEyrh8tU23g3JpKhK",
+      "mask": "/img/foils/swsh11/masks/tg26_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/Qmc2vYRs2ZtZhqgg1HME6PE6yCgEKDW8BJrJXdjgjbQ5Zo"
+    },
+    "name": "Kabu",
+    "number": "TG26",
+    "rarity": "Rare Ultra",
+    "set": "swsh11tg",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh4-188",
+    "images": {
+      "foil": "/img/foils/swsh4/foils/188_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmW9ys7tnZMfUhDm776G5cA9NHQgARYhPTCcCEToF3vZx5",
+      "mask": "/img/foils/swsh4/masks/188_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmQc6HgF1ukQ7m9XDcM48fnRuPyyLBJgKNJkjxYbwDHGBt"
+    },
+    "name": "Pikachu VMAX",
+    "number": "188",
+    "rarity": "Rare Rainbow",
+    "set": "swsh4",
+    "subtypes": [
+      "VMAX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh12-197",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/197_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmaRwaeyPqTm4aSpD7ZNq1uQTqenk5pXu4nnjoLGW3z9Zw",
+      "mask": "/img/foils/swsh12/masks/197_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmQcnXA8THPgwdG9geMPSJb2s6bpoM1uDGJvUZ8GRtfCTo"
+    },
+    "name": "Alolan Vulpix VSTAR",
+    "number": "197",
+    "rarity": "Rare Rainbow",
+    "set": "swsh12",
+    "subtypes": [
+      "VSTAR"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "swsh10-204",
+    "images": {
+      "foil": "/img/foils/swsh10/foils/204_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/Qmaqyye8vy7QGpTEBtryd6Qzg5UqiR6YvN5MRU6mqRxN7Y",
+      "mask": "/img/foils/swsh10/masks/204_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmfCGofUr9M3rddsUPV6NphwWiz2obQYiD7vt2rkr6RPVT"
+    },
+    "name": "Irida",
+    "number": "204",
+    "rarity": "Rare Rainbow",
+    "set": "swsh10",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh8-268",
+    "images": {
+      "foil": "/img/foils/swsh8/foils/268_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmcFwMPB7wUMm8qmEQx9kKftSwBaVj4Fu7rmf1z5c7aVPG",
+      "mask": "/img/foils/swsh8/masks/268_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmafrYgj3F21EaDTVBzBidVUqx65S65vuVjJAAQoXkPw2v"
+    },
+    "name": "Mew VMAX",
+    "number": "268",
+    "rarity": "Rare Rainbow",
+    "set": "swsh8",
+    "subtypes": [
+      "VMAX",
+      "Fusion Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh9-175",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/175_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/Qmb1GYUUY6XrRiCSAGBjpk86JvnZhNYHLY6X4PUoTX1S7f",
+      "mask": "/img/foils/swsh9/masks/175_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmciEEPDTT84NU7SpoxCgz58mcimBHGmhHpTXiBmf9WKhw"
+    },
+    "name": "Whimsicott VSTAR",
+    "number": "175",
+    "rarity": "Rare Rainbow",
+    "set": "swsh9",
+    "subtypes": [
+      "VSTAR"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh12-205",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/205_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmbdeHmRQnu9bniPuexKLqin1Jjt3exqwcyBqfVNr3JtB7",
+      "mask": "/img/foils/swsh12/masks/205_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmSxYhSSuZ92minUKBwPdg8BcFgjRYaD1jgt95KUC6zLvb"
+    },
+    "name": "Furisode Girl",
+    "number": "205",
+    "rarity": "Rare Rainbow",
+    "set": "swsh12",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh2-209",
+    "images": {
+      "foil": "/img/foils/swsh2/foils/209_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmTuskAZTUKmZCQccQhS4BUwapjBdDcE2W6EFar1MamTim",
+      "mask": "/img/foils/swsh2/masks/209_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmRHxPYKkAxtKtNRTFXbmcTYgt3UzQiSGdXxGMHYMG1KMn"
+    },
+    "name": "Twin Energy",
+    "number": "209",
+    "rarity": "Rare Secret",
+    "set": "swsh2",
+    "subtypes": [
+      "Special"
+    ],
+    "supertype": "Energy"
+  },
+  {
+    "id": "swsh9-186",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/186_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmRzeXKZBcnmnYGZ6nMmqfHz8HAEi7znJjVNKAoVS7eXn3",
+      "mask": "/img/foils/swsh9/masks/186_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmVuZSYidtPrjQh3h6maPnHsojvgt5TeQj1RdHZu2UNrsg"
+    },
+    "name": "Ultra Ball",
+    "number": "186",
+    "rarity": "Rare Secret",
+    "set": "swsh9",
+    "subtypes": [
+      "Item"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh10-213",
+    "images": {
+      "foil": "/img/foils/swsh10/foils/213_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmQ5Y17qhhcZ9foUoQnLxtRKukJ7XUK1vyC1qrJmpmRZpu",
+      "mask": "/img/foils/swsh10/masks/213_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmaGDxqtJ8M5JCRqqnEjJstgXh42NDCRkWWv47hf5bShGw"
+    },
+    "name": "Path to the Peak",
+    "number": "213",
+    "rarity": "Rare Secret",
+    "set": "swsh10",
+    "subtypes": [
+      "Stadium"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh8-280",
+    "images": {
+      "foil": "/img/foils/swsh8/foils/280_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmUt9heRQvusc75HUyLn5s5RX6ffakq14suHixKFYcigrf",
+      "mask": "/img/foils/swsh8/masks/280_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmdU24TRYkParJHqX6PeBQPCCJ5pJZCqoyheGYfbjZMnJR"
+    },
+    "name": "Flaaffy",
+    "number": "280",
+    "rarity": "Rare Secret",
+    "set": "swsh8",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh9-184",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/184_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmXTTvJZpKN9qPw4ojSS53Q9P9HmrTw9ZFsCqTq5gBjaiF",
+      "mask": "/img/foils/swsh9/masks/184_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmWRthRAxQgFDzp2ZsvyX1gSrBwGwwxjM9jcT4iGbeH8Up"
+    },
+    "name": "Arceus VSTAR",
+    "number": "184",
+    "rarity": "Rare Secret",
+    "set": "swsh9",
+    "subtypes": [
+      "VSTAR"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "swsh11tg-TG30",
+    "images": {
+      "foil": "/img/foils/swsh11/foils/tg30_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/Qmap3GhY4x5tD3ZGSFX6nNnR39FGwaio9BPTaGCunmJAwe",
+      "mask": "/img/foils/swsh11/masks/tg30_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmP5AQe18Yryg8Wk2qY95SayEBtX9wt3PT9nawEfJT5bFN"
+    },
+    "name": "Mew VMAX",
+    "number": "TG30",
+    "rarity": "Rare Secret",
+    "set": "swsh11tg",
+    "subtypes": [
+      "VMAX",
+      "Fusion Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh9tg-TG16",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/tg16_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/Qmbpjnq5TJVdo52no4QDzPBRpoo7b35xn9N2jJaS7nxyHp",
+      "mask": "/img/foils/swsh9/masks/tg16_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmWXSwhHR7EukBNeNpGcJb2dryKmr8YGCscSfWqVV1AyTo"
+    },
+    "name": "Mimikyu V",
+    "number": "TG16",
+    "rarity": "Rare Holo V",
+    "set": "swsh9tg",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh9tg-TG18",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/tg18_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmXunpAPcCJXLfNsdVCPq4CknHyivCAdjThkXQ6SuhUPLM",
+      "mask": "/img/foils/swsh9/masks/tg18_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmRt3w1d7v3Lo6QPQv2koYHHnAECTp1qkn2nbCNEhoxziz"
+    },
+    "name": "Single Strike Urshifu V",
+    "number": "TG18",
+    "rarity": "Rare Holo V",
+    "set": "swsh9tg",
+    "subtypes": [
+      "Basic",
+      "V",
+      "Single Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": "swsh11tg-TG16",
+    "images": {
+      "foil": "/img/foils/swsh11/foils/tg16_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmTmbMfpibkNmAxjMoi41d8KHrXUv7SRNuR9ufxJ6yshkt",
+      "mask": "/img/foils/swsh11/masks/tg16_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmZuHV9Z6prCAyfiUuG9EG7R3HUxwJM21cWvWrUJkEnrCp"
+    },
+    "name": "Pikachu V",
+    "number": "TG16",
+    "rarity": "Rare Holo V",
+    "set": "swsh11tg",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh9tg-TG17",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/tg17_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmdJLGpLhrkh4L3wHXGNt9Qj4xobUbiRtNSUDig8839ssU",
+      "mask": "/img/foils/swsh9/masks/tg17_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmRdcAU7pLTMfWPaUYcsZ3Cey7RoWnSoVpswzuayGj2yJx"
+    },
+    "name": "Mimikyu VMAX",
+    "number": "TG17",
+    "rarity": "Rare Holo VMAX",
+    "set": "swsh9tg",
+    "subtypes": [
+      "VMAX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh9tg-TG19",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/tg19_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmPFSSWnwAh1PBzjsCjtgDyMQiPHrA96TqTUfD1tbLbfFm",
+      "mask": "/img/foils/swsh9/masks/tg19_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmdwnVo5RGAsFkit5KUwNqPwDgv1Y5ubTA3DBGCSSAJk3f"
+    },
+    "name": "Single Strike Urshifu VMAX",
+    "number": "TG19",
+    "rarity": "Rare Holo VMAX",
+    "set": "swsh9tg",
+    "subtypes": [
+      "VMAX",
+      "Single Strike"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": "swsh11tg-TG17",
+    "images": {
+      "foil": "/img/foils/swsh11/foils/tg17_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmexyjjxUESqZYFkPgpF2CYYig2moGssU5QDoiPx8LkcxQ",
+      "mask": "/img/foils/swsh11/masks/tg17_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmTo3SYHsJiBi34rS5xMvhidtTDRTVbFTGbqXGTPmccqri"
+    },
+    "name": "Pikachu VMAX",
+    "number": "TG17",
+    "rarity": "Rare Holo VMAX",
+    "set": "swsh11tg",
+    "subtypes": [
+      "VMAX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh9-120",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/120_foil_holo_reverse.jpg",
+      "large": "https://ipfs.io/ipfs/QmdEZ69hR4cWSL6V9mUT8gN5Zh6xkPe1rGkbyTsNy6nsJE",
+      "mask": "/img/foils/swsh9/masks/120_foil_holo_reverse.png",
+      "small": "https://ipfs.io/ipfs/QmNSu6PoG4MYMEbByyU8Fr4WxHya4cHZnLsBqJWT44M3Z4"
+    },
+    "name": "Bidoof",
+    "number": "120",
+    "rarity": "Common",
+    "set": "swsh9",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "swsh12-49",
+    "images": {
+      "foil": "/img/foils/swsh12/foils/049_foil_holo_reverse.jpg",
+      "large": "https://ipfs.io/ipfs/QmU8xaHKYqiTpdDmTA2KXXvjC4KGxiaMCQwiNRTujVSs1q",
+      "mask": "/img/foils/swsh12/masks/049_foil_holo_reverse.png",
+      "small": "https://ipfs.io/ipfs/QmceBM64kbLpcgo4bxeRLZM5QfBJZJHbaYxSkCaPZhAnBA"
+    },
+    "name": "Pikachu",
+    "number": "49",
+    "rarity": "Common",
+    "set": "swsh12",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh8-138",
+    "images": {
+      "foil": "/img/foils/swsh8/foils/138_foil_holo_reverse.jpg",
+      "large": "https://ipfs.io/ipfs/QmZ4NeMXFsTpYsT9dxodPvf7wTaEkiVPjyRQZnfB1yz2rJ",
+      "mask": "/img/foils/swsh8/masks/138_foil_holo_reverse.png",
+      "small": "https://ipfs.io/ipfs/QmZmmeGhnLe22c3XrXTwrXcy5fpEPBEPutvqGL1RK8r7Ah"
+    },
+    "name": "Onix",
+    "number": "138",
+    "rarity": "Common",
+    "set": "swsh8",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": "pgo-69",
+    "images": {
+      "foil": "/img/foils/pgo/foils/068_foil_holo_reverse.jpg",
+      "large": "https://ipfs.io/ipfs/QmcNp8Udh9oVwkqNDGLsjRVVQMs8jhjVxWN9M6zAojgev2",
+      "mask": "/img/foils/pgo/masks/068_foil_holo_reverse.png",
+      "small": "https://ipfs.io/ipfs/Qmcw4z7R58LmNzhUdBMUHJ9bgRHeDXz4J8g7fy5mVNthyt"
+    },
+    "name": "PokéStop",
+    "number": "68",
+    "rarity": "Uncommon",
+    "set": "pgo",
+    "subtypes": [
+      "Stadium"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh1-173",
+    "images": {
+      "foil": "/img/foils/swsh1/foils/173_foil_holo_reverse.jpg",
+      "large": "https://ipfs.io/ipfs/QmaTdRp6zdebKnvfRrduSPAVj9t4zFZTUFuH6ev6cgbAM9",
+      "mask": "/img/foils/swsh1/masks/173_foil_holo_reverse.png",
+      "small": "https://ipfs.io/ipfs/QmUZP9sRmhYh8RBFzhCiMgVwUQMU7nfxYte9sh7gsT5Xre"
+    },
+    "name": "Poké Kid",
+    "number": "173",
+    "rarity": "Uncommon",
+    "set": "swsh1",
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh9-150",
+    "images": {
+      "foil": "/img/foils/swsh9/foils/150_foil_holo_reverse.jpg",
+      "large": "https://ipfs.io/ipfs/QmePxN8j9n2at8mRwJATo1CAhn32pcQ69gDTLpGbvKSJ8V",
+      "mask": "/img/foils/swsh9/masks/150_foil_holo_reverse.png",
+      "small": "https://ipfs.io/ipfs/QmRD9m5pEGKW7WTnaf6kNDuMYBWQJZyBwSUTjeStyWm9QK"
+    },
+    "name": "Ultra Ball",
+    "number": "150",
+    "rarity": "Uncommon",
+    "set": "swsh9",
+    "subtypes": [
+      "Item"
+    ],
+    "supertype": "Trainer"
+  },
+  {
+    "id": "swsh4-9",
+    "images": {
+      "foil": "/img/foils/swsh4/foils/009_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmV1b6Ee2U7VxDSd2QkAwfpGxC1Hz2r611KXx7N9UxrExx",
+      "mask": "/img/foils/swsh4/masks/009_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmZSicEFGSdEwhRv2Wxy1TtYMpxrpA6pwQk9WnpSUokeRr"
+    },
+    "name": "Celebi",
+    "number": "9",
+    "rarity": "Amazing Rare",
+    "set": "swsh4",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "id": "swsh4-50",
+    "images": {
+      "foil": "/img/foils/swsh4/foils/050_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmfSiHMY8RfAwgQC3CP4345HjupbKZqnc4NNsSB8MFHcSt",
+      "mask": "/img/foils/swsh4/masks/050_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmPEK43tTWe4PXEtKinu5eXusgT1RZePsQ2RmqCXJmK6TC"
+    },
+    "name": "Raikou",
+    "number": "50",
+    "rarity": "Amazing Rare",
+    "set": "swsh4",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "id": "swsh4-82",
+    "images": {
+      "foil": "/img/foils/swsh4/foils/082_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmQ4nNEnWoxupLfpQpiuyM5kGDbgxw5QkKmYBZQa61NnKe",
+      "mask": "/img/foils/swsh4/masks/082_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmRtYdsFKtq1hKCj45ECcr4knxv5kuQNKMKuXVvpz9NVzf"
+    },
+    "name": "Zacian",
+    "number": "82",
+    "rarity": "Amazing Rare",
+    "set": "swsh4",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": "swsh4-102",
+    "images": {
+      "foil": "/img/foils/swsh4/foils/102_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmZhM2vs4vWxhkxF56WgWjG3d4thu1n9EXrHWkaKGjfHTn",
+      "mask": "/img/foils/swsh4/masks/102_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmdyzdjkMoXryerwY6qVnn9gwzMxyVEo2QDgnsQGGDkNmm"
+    },
+    "name": "Zamazenta",
+    "number": "102",
+    "rarity": "Amazing Rare",
+    "set": "swsh4",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": "swsh4-119",
+    "images": {
+      "foil": "/img/foils/swsh4/foils/119_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmZ3aJXzGFfph4LBGnVMMirxHJx8YDqMMwWFcEyK4jtgDM",
+      "mask": "/img/foils/swsh4/masks/119_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmbmbC97h4FNjC1bkegeULLDEb6P5rqVpYiyPxfVxR2vYV"
+    },
+    "name": "Jirachi",
+    "number": "119",
+    "rarity": "Amazing Rare",
+    "set": "swsh4",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ]
+  },
+  {
+    "id": "swsh4-138",
+    "images": {
+      "foil": "/img/foils/swsh4/foils/138_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmcvCudkiKzFG1UxL3LDwBDfr8NPXtCSSj1hLevECVALnG",
+      "mask": "/img/foils/swsh4/masks/138_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmeVtRXFaGh6eVEeTFQCsh9ECY1vQf1WQuBdBmVLb75TCZ"
+    },
+    "name": "Rayquaza",
+    "number": "138",
+    "rarity": "Amazing Rare",
+    "set": "swsh4",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "swsh45-17",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/017_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmW9T5efneZFBwJLUqVH2UcZ3UpjnUS1ZLmecvf2XceFa1",
+      "mask": "/img/foils/swsh45/masks/017_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmeRPqjf1qa9BSqArRdiEdKPMD49pr2XJFiTvGzgz56p2X"
+    },
+    "name": "Reshiram",
+    "number": "17",
+    "rarity": "Amazing Rare",
+    "set": "swsh45",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "id": "swsh45-21",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/021_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmVgmGDuJM6nMHsC3TWXHUiHNZidwnbGvqYHKi4CX9jLMb",
+      "mask": "/img/foils/swsh45/masks/021_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmUPBBURZRadyEfJvH2pq1R5xwp9aDNWJmFRHRa56zDnGD"
+    },
+    "name": "Kyogre",
+    "number": "21",
+    "rarity": "Amazing Rare",
+    "set": "swsh45",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "swsh45-46",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/046_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmYw1FjgnFfBFy8sP4gmimGdsd63GMaFZzACL2eaqSAkDq",
+      "mask": "/img/foils/swsh45/masks/046_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmUoc1dcGPwEFeWQj2uULR9BAK3vKGqojSFF25hzUmbHdW"
+    },
+    "name": "Yveltal",
+    "number": "46",
+    "rarity": "Amazing Rare",
+    "set": "swsh45",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ]
+  },
+  {
+    "id": "swsh45sv-SV093",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/sv093_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmXD5sHALKodwg7FPimv5gFQKcig1yTLrfwQwLRQRZthF2",
+      "mask": "/img/foils/swsh45/masks/sv093_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmQZh3XGJzeDhdXLRSafzhDiRSKTyynP2NBRzcevD7P95f"
+    },
+    "name": "Minccino",
+    "number": "SV093",
+    "rarity": "Rare Shiny",
+    "set": "swsh45sv",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "swsh45sv-SV094",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/sv094_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmVaZPe2PobtrqtEKU1w6LgbvRaNntVC5PJr1kCKqaLips",
+      "mask": "/img/foils/swsh45/masks/sv094_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmXjJZqBadk8pDQo6Zr7dwePzWreD9k4Qbm2NEsasQZiWm"
+    },
+    "name": "Cinccino",
+    "number": "SV094",
+    "rarity": "Rare Shiny",
+    "set": "swsh45sv",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "swsh45sv-SV110",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/sv110_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmduYFNbwDvwJyvDZ1Wb5PuMFTft8wL8F8jsFKHqUFj2k6",
+      "mask": "/img/foils/swsh45/masks/sv110_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmWK76WnfkzTFFmNEFEjX43q3z3xUbkyKdpwHYscDSPYm7"
+    },
+    "name": "Lapras V",
+    "number": "SV110",
+    "rarity": "Rare Holo V",
+    "set": "swsh45sv",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "swsh45sv-SV023",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/sv023_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmZxC4yKRGxirUvkecwZ5LUFY4cZDW6NEokTDE7AEG4JkU",
+      "mask": "/img/foils/swsh45/masks/sv023_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmVzw3JbRkACwZDZdyoYChAhsfDoK6vYXpuZ22mNw1zcJL"
+    },
+    "name": "Galarian Darumaka",
+    "number": "SV023",
+    "rarity": "Rare Shiny",
+    "set": "swsh45sv",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "id": "swsh45sv-SV076",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/sv076_foil_etched_sunpillar.jpg",
+      "large": "https://ipfs.io/ipfs/QmTCY2gy16q8saoWPwrAdGy9yXZyKwrbTiAaGP2SeXDQBL",
+      "mask": "/img/foils/swsh45/masks/sv076_foil_etched_sunpillar.png",
+      "small": "https://ipfs.io/ipfs/QmZqiVFUkXG1LoBFFmkRLKBizds3oX6JUYANoneFYeae98"
+    },
+    "name": "Koffing",
+    "number": "SV076",
+    "rarity": "Rare Shiny",
+    "set": "swsh45sv",
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ]
+  },
+  {
+    "id": "swsh45sv-SV107",
+    "images": {
+      "foil": "/img/foils/swsh45/foils/sv107_foil_etched_swsecret.jpg",
+      "large": "https://ipfs.io/ipfs/QmbzW94nnBfuZB76DyogdPB98JoMHLHBCn9AF1RKfs9E4X",
+      "mask": "/img/foils/swsh45/masks/sv107_foil_etched_swsecret.png",
+      "small": "https://ipfs.io/ipfs/QmWoP1R132VZZEMyK5BVJaxng5bG7EJK2cUvcvM6veAzef"
+    },
+    "name": "Charizard VMAX",
+    "number": "SV107",
+    "rarity": "Rare Holo VMAX",
+    "set": "swsh45sv",
+    "subtypes": [
+      "VMAX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ]
+  }
+]
