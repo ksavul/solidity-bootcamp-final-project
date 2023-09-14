@@ -30,6 +30,11 @@ function NavBar({ setCurrentPage }: NavBarProps) {
           <ListItem paddingY="7px" paddingX="5px">
             <button onClick={() => handleNavigation("balance")}>Balance</button>
           </ListItem>
+          <ListItem paddingY="7px" paddingX="5px">
+            <button onClick={() => handleNavigation("SellerFlow")}>
+              Selling
+            </button>
+          </ListItem>
           {/* Add more navigation links/buttons as needed */}
         </List>
       </nav>

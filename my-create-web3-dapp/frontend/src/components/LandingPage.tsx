@@ -1,20 +1,54 @@
-// LandingPage.jsx
-import React from "react";
+import {
+  Flex,
+  VStack,
+  Heading,
+  Button,
+  useColorModeValue,
+} from "@chakra-ui/react";
+import MainNav from "./MainNav";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { Box, Center, Heading, Button } from "@chakra-ui/react";
 
 function LandingPage() {
+  const btnHoverBg = useColorModeValue("#0056b3", "#007bff");
+
   return (
-    <Center h="100vh">
-      <Box textAlign="center">
-        <Heading as="h5" size="lg" mb="4">
+    <Flex
+      width="100%"
+      height="100vh"
+      flexDirection="column"
+      bgImage="url('pokemon.jpg')"
+      bgSize="cover"
+      bgPosition="center"
+      bgRepeat="no-repeat"
+      p="40px 20px"
+      textAlign="center"
+      color="white"
+      justifyContent="center"
+      alignItems="center"
+    >
+      <MainNav />
+
+      <Flex
+        flexDirection="column"
+        alignItems="center"
+        justifyContent="center"
+        width="100%"
+        flexGrow={1}
+      >
+        <Heading
+          as="h5"
+          size="2xl"
+          fontWeight="bold"
+          color="darkgreen"
+          marginTop="1px"
+          marginBottom="1px"
+        >
           Welcome to PokeWars
         </Heading>
-        <Button colorScheme="" id="btn" size="lg">
-          <ConnectButton />
-        </Button>
-      </Box>
-    </Center>
+
+        <ConnectButton />
+      </Flex>
+    </Flex>
   );
 }
 

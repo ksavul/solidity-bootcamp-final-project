@@ -1,0 +1,31 @@
+If we need each page to have its own Route--
+we have npm install react-router-dom
+
+Create individual components for each page we want to display. For example, create a Game.tsx, BalancePage.tsx, and LandingPage.tsx.
+Define your routes in a separate component, typically named AppRouter.tsx. Import your page components and set up routes like this:
+
+// AppRouter.tsx
+import React from 'react';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import LandingPage from './LandingPage';
+import GamePage from './GamePage';
+import BalancePage from './BalancePage';
+
+function AppRouter() {
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/game" component={GamePage} />
+        <Route path="/balance" component={BalancePage} />
+        {/* Add more routes for additional pages */}
+      </Switch>
+    </Router>
+  );
+}
+export default AppRouter;
+
+In App.tsx, import and use the AppRouter component and when we navigate to different routes
+ (e.g., /game, /balance) in app.tsx, React Router will automatically render the corresponding components.
+
+ I was having issues with this approach but maybe you want to try if we need routes?
