@@ -76,7 +76,7 @@ describe("Shop contract", function () {
  
          });
 
-         it("Should buy first nft", async function () {
+         it("Should buy nft", async function () {
             const id = 10;
             await token.addShop(instance.target);
             await nft.addShop(instance.target);
@@ -84,7 +84,9 @@ describe("Shop contract", function () {
             await instance.buyTokenDigitalWithEther({value: 100});
             await token.approve(instance.target, 10000);
             await instance.buyNFTWithToken();
-            expect(await nft.ownerOf(1)).to.equal(owner.address)
+            const array = await instance.mintedTokens();
+            const index = array[0];
+            expect(await nft.ownerOf(index)).to.equal(owner.address)
 
  
          });
