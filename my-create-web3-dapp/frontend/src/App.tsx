@@ -4,7 +4,6 @@ import GameGrid from "./components/GameGrid";
 import LandingPage from "./components/LandingPage";
 import Balance from "./components/NewUserPage";
 // import SellerFlow from "./components/sellerFlow";
-import GameNav from "./components/GameNav";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("landing"); // Default to 'landing' page
@@ -27,7 +26,7 @@ function App() {
 
   return (
     <div>
-      {currentPage !== "landing" && <GameNav setCurrentPage={setCurrentPage} />}
+      {currentPage !== "landing"}
       {renderPage()}
     </div>
   );

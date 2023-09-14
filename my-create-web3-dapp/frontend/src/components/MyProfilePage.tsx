@@ -1,15 +1,14 @@
-import { SimpleGrid, Text } from "@chakra-ui/react";
+import { SimpleGrid } from "@chakra-ui/react";
+import MainNav from "./MainNav";
 import useGames from "../hooks/UseGames";
 import GameCard from "./GameCard";
-import MainNav from "./MainNav";
 
-const GameGrid = () => {
-  const { games, error } = useGames();
+const MyProfilePage = () => {
+  const { games } = useGames();
 
   return (
     <>
       <MainNav />
-      {error && <Text>{error}</Text>}
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3, xl: 5 }}
         padding="10px"
@@ -23,4 +22,4 @@ const GameGrid = () => {
   );
 };
 
-export default GameGrid;
+export default MyProfilePage;

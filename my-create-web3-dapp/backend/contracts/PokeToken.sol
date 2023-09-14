@@ -9,6 +9,7 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 contract PokeToken is ERC20, ERC20Burnable, Ownable, AccessControl {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     address private shopContract;
+    mapping(address => bool) public hasMinted;
 
     constructor() ERC20("PokeToken", "PTK") {
         //_mint(msg.sender, 1000000 * 10 ** decimals());
@@ -25,7 +26,9 @@ contract PokeToken is ERC20, ERC20Burnable, Ownable, AccessControl {
         return shopContract;
     }
 
-    function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
-        _mint(to, amount);
+    function mint(address to) public {
+        require(!hasMinted[to], "Address has already minted");
+        hasMinted[to] = true;
+        _mint(to, 10000000000000000000);
     }
 }

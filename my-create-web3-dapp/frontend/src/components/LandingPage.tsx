@@ -2,6 +2,7 @@ import { Flex, Heading } from "@chakra-ui/react";
 import MainNav from "./MainNav";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useNavigate } from "react-router-dom";
+import { HasMinted, MintToken } from "../hooks/MintToken";
 
 // const { address, isConnecting, isDisconnected } = useAccount();
 
@@ -33,7 +34,7 @@ function LandingPage() {
       >
         <Heading
           as="h5"
-          size="2xl"
+          size="1xl"
           fontWeight="bold"
           color="darkgreen"
           marginTop="1px"
@@ -42,7 +43,7 @@ function LandingPage() {
           Welcome to PokeWars
         </Heading>
 
-        <ConnectButton.Custom>
+        {/* <ConnectButton.Custom>
           {({
             account,
             chain,
@@ -61,8 +62,14 @@ function LandingPage() {
                 authenticationStatus === "authenticated");
 
             // Step 3
+            const hasUserMinted = HasMinted();
+
             if (connected) {
-              navigate("/new-user");
+              if (!hasUserMinted) {
+                navigate("/new-user");
+              } else {
+                navigate("/dashboard");
+              }
             }
 
             return (
@@ -144,7 +151,7 @@ function LandingPage() {
               </div>
             );
           }}
-        </ConnectButton.Custom>
+        </ConnectButton.Custom> */}
       </Flex>
     </Flex>
   );

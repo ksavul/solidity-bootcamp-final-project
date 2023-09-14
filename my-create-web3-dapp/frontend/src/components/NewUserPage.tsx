@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Box,
   Button,
@@ -8,22 +8,43 @@ import {
   UnorderedList,
   ListItem,
 } from "@chakra-ui/react";
-import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { TokenBalance } from "./Balance";
+
+import { TokenBalance, TokenName } from "../hooks/TokenInfo";
+import { useAccount } from "wagmi";
+import { HasMinted } from "../hooks/MintToken";
+import MainNav from "./MainNav";
+import { useNavigate } from "react-router-dom";
 
 function NewUserPage() {
-  const [pokeTokens, setPokeTokens] = useState(10);
-  const [cards, setCards] = useState([]);
+  const [pokeTokens] = useState(10);
+  const [cards] = useState([]);
+
+  const { address } = useAccount();
+  const navigate = useNavigate();
+
+  // const checkminted = () => {
+  //   const hasUserMinted = HasMinted();
+  //   if (hasUserMinted) {
+  //     navigate("/dashboard");
+  //   }
+  //   console.log("Has user minted " + hasUserMinted);
+  // };
 
   const handleConvertToCards = () => {
     // Implement the logic to convert PokeTokens to a random set of cards
     // and update the 'cards' state accordingly.
   };
 
+  // useEffect(() => {
+  //   checkminted();
+  // }, []);
+
   return (
     <>
-      <ConnectButton />
-      <TokenBalance />
+      <MainNav />
+      <TokenBalance address={address} />
+      <TokenName />
+
       <Box display="flex" alignItems="center" justifyContent="center">
         <div
           style={{
@@ -38,6 +59,8 @@ function NewUserPage() {
             </Text>
             <Text>You have {pokeTokens} PokeTokens.</Text>
           </VStack>
+          {/* <MintToken address="{address}" /> */}
+          Mint PokeTokens
           <Button onClick={handleConvertToCards} colorScheme="blue">
             Convert PokeTokens to Cards
           </Button>

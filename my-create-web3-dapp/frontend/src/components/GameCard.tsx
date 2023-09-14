@@ -1,5 +1,5 @@
 import { Game } from "../hooks/UseGames";
-import { Card, CardBody, Heading, Image } from "@chakra-ui/react";
+import { Button, Card, CardBody, Heading, Image } from "@chakra-ui/react";
 
 interface Props {
   game: Game;
@@ -12,6 +12,7 @@ const GameCard = ({ game }: Props) => {
       <CardBody>
         <Heading fontSize="2xl">{game.name}</Heading>
       </CardBody>
+      <Button>Sell</Button>
     </Card>
   );
 };
