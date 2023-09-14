@@ -13,6 +13,7 @@ import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import { sepolia } from "wagmi/chains";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
+import AppRouter from "./components/AppRouter";
 
 const { chains, publicClient } = configureChains(
   [sepolia],
@@ -49,7 +50,7 @@ ReactDOM.render(
           })}
         >
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-          <App />
+          <AppRouter />
         </RainbowKitProvider>
       </WagmiConfig>
     </ChakraProvider>

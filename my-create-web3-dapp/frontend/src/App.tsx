@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Box, Grid, GridItem, Show } from "@chakra-ui/react";
 import GameGrid from "./components/GameGrid";
 import LandingPage from "./components/LandingPage";
-import Balance from "./components/Balance";
+import Balance from "./components/NewUserPage";
 // import SellerFlow from "./components/sellerFlow";
 import GameNav from "./components/GameNav";
 
